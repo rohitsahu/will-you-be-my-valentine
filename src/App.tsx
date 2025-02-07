@@ -2,7 +2,7 @@
 import { useState } from "react";
 import './App.css';
 
-const images = Array.from({ length: 35 }, (_, i) => `/will-you-be-my-valentine/assets/${i + 1}.jpeg`);
+const images = Array.from({ length: 30 }, (_, i) => `/will-you-be-my-valentine/assets/${i + 1}.jpeg`);
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
